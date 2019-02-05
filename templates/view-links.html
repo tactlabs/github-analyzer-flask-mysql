@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Github</title>
+  </head>
+  <body>
+    
+        <h4>Git Hub Links</h4>
+        
+        <section>
+          <table>
+              {% for link in result.apivalue %}  
+              <tr>
+                <td>{{link.github_link}}</td>
+              </tr>
+              {% endfor %}  
+          </table>
+        </section>		
+
+  </body>
+  </html>
